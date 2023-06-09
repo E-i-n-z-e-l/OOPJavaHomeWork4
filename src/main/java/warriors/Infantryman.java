@@ -1,0 +1,20 @@
+package warriors;
+
+/*
+Вид воина Пехотинец
+ */
+
+import weapons.Protection;
+import weapons.meleeWeapon.Melee;
+
+public class Infantryman extends Warrior<Melee, Protection>{ // Класс Пехотинец;
+
+    public Infantryman(String name, int healthPoint, Melee weapon, Protection protection) { // Поля как у воина;
+        super(name, healthPoint, weapon, protection);
+    }
+
+    @Override
+    public String toString() {
+        return String.format("Пехотинец: %s", super.toString());
+    }
+}
