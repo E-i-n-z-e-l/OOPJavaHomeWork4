@@ -1,5 +1,7 @@
 package weapons.shields;
-
+/*
+Круглый щит
+ */
 import weapons.Protection;
 
 public class RoundShield implements Protection {
