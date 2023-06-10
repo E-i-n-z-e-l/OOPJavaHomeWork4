@@ -1,5 +1,5 @@
 /*
-Файл Main
+Файл Main.
  */
 
 import warriors.Archer;
