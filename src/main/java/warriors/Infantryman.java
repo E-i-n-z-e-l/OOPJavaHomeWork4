@@ -1,7 +1,7 @@
 package warriors;
 
 /*
-Вид воина Пехотинец
+Вид воина Пехотинец.
  */
 
 import weapons.Protection;
