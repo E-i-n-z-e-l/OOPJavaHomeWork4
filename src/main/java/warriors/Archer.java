@@ -1,7 +1,7 @@
 package warriors;
 
 /*
-Вид воина Лучник
+Вид воина Лучник.
  */
 
 import weapons.Protection;
