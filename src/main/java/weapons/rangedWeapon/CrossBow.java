@@ -1,6 +1,6 @@
 package weapons.rangedWeapon;
 /*
-Арбалет и его методы
+Арбалет и его методы.
  */
 public class CrossBow implements Ranged{ // Класс Арбалет;
     @Override
