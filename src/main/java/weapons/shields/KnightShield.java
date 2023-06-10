@@ -1,5 +1,7 @@
 package weapons.shields;
-
+/*
+Рыцарский щит
+ */
 import weapons.Protection;
 
 public class KnightShield implements Protection {
