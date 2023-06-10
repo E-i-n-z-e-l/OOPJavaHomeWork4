@@ -1,5 +1,7 @@
 package weapons.shields;
-
+/*
+Тяжелый щит.
+ */
 import weapons.Protection;
 
 public class HeavyShield implements Protection {
