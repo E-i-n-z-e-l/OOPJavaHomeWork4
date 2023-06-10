@@ -1,7 +1,7 @@
 package weapons.meleeWeapon;
 
 /*
-Интерфейс оружия ближнего боя
+Интерфейс оружия ближнего боя.
  */
 
 import weapons.Weapon;
