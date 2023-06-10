@@ -1,6 +1,6 @@
 package weapons.meleeWeapon;
 /*
-Оружие топор
+Оружие топор.
  */
 public class Axe implements Melee{ // класс оружия - топор;
     @Override
