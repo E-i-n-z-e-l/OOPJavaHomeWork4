@@ -1,6 +1,6 @@
 package weapons.rangedWeapon;
 /*
-Интерфейс дальнобойного оружия
+Интерфейс дальнобойного оружия.
  */
 import weapons.Weapon;
 
