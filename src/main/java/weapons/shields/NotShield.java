@@ -1,5 +1,7 @@
 package weapons.shields;
-
+/*
+Без щита
+ */
 public class NotShield implements Def {
 
     @Override
