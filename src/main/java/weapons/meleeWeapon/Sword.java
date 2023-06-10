@@ -1,7 +1,7 @@
 package weapons.meleeWeapon;
 
 /*
-Оружие меч
+Оружие меч.
  */
 
 public class Sword implements Melee{ // Меч;
