@@ -1,7 +1,7 @@
 package weapons.rangedWeapon;
 
 /*
-Лук и его методы
+Лук и его методы.
  */
 public class Bow implements Ranged{ // Класс лук;
     @Override
