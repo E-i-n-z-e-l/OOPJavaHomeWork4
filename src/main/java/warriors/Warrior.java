@@ -1,7 +1,7 @@
 package warriors;
 
 /*
-Класс воин и его методы
+Класс воин и его методы.
  */
 
 import weapons.Protection;
