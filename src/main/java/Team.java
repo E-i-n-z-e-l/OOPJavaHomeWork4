@@ -60,6 +60,20 @@ public class Team<T extends Warrior> implements Iterable<T> { // Класс ко
         return teamDefense;
     }
 
+/*
+Метод определения минимального щита в команде
+ */
+public int getMinShield() {
+    int minShield = Integer.MAX_VALUE; // начальное значение минимального щита - максимальное значение int
+
+    for (T player : this) { // перебираем всех игроков в команде
+        if (player.getProtection().blockDamage() < minShield) { // если щит игрока меньше текущего минимального значения
+            minShield = player.getProtection().blockDamage(); // обновляем минимальное значение
+        }
+    }
+
+    return minShield;
+}
     @Override
     public String toString() {
         StringBuilder builder = new StringBuilder();
